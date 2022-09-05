@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+  <meta charset="utf-8">
+  <!-- firefox needs to define the base path -->
+  <base href="/demo/">
+  <style>
+    body {
+      background: #fafafa;
+    }
+  </style>
+</head>
+<body>
+  <div id="demo"></div>
+
+  <link href="https://fonts.googleapis.com/css?family=Material+Icons&display=block" rel="stylesheet">
+  <style>
+    html, body, div {
+      min-height: 100% !important;
+      height: 100%;
+      margin: 0;
+      padding: 0;
+    }
+  </style>
+  <script type="module">
+    import { html, render } from 'lit-html';
+    import './demo-example.js';
+
+    render(
+      html`
+        <demo-example></demo-example>
+      `,
+      document.querySelector('#demo')
+    );
+  </script>
+</body>
+</html>

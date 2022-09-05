@@ -6,11 +6,11 @@ Steps to create your own web component based on Lit :
 * Clone the repo : ```git clone git@github.com:flatmax/web-lit-component.git```
 * Rename the repo : ```mv web-lit-component vanilla-lit```
 * Rename some files in the repo :
-** mv web-lit-component.js vanilla-lit.js
-** mv src/WebLitComponent.js src/VanillaLit.js
+  * mv web-lit-component.js vanilla-lit.js
+  * mv src/WebLitComponent.js src/VanillaLit.js
 * Find and replace the component name :
-** Replace "WebLitComponent" for "VanillaLit"
-** Replace "web-lit-component" for "vanilla-lit"
+  * Replace "WebLitComponent" for "VanillaLit"
+  * Replace "web-lit-component" for "vanilla-lit"
 
 ## Usage
 ```html

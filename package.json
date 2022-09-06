@@ -1,5 +1,5 @@
 {
-  "name": "web-lit-component",
+  "name": "@flatmax/web-lit-component",
   "version": "1.0.0",
   "description": "Clone this component to build new ones based on Lit",
   "author": "@flatmax",
@@ -14,5 +14,18 @@
   },
   "devDependencies": {
     "@web/dev-server": "^0.1.28"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/flatmax/web-lit-component.git"
+  },
+  "keywords": [
+    "web",
+    "components",
+    "lit"
+  ],
+  "bugs": {
+    "url": "https://github.com/flatmax/web-lit-component/issues"
+  },
+  "homepage": "https://github.com/flatmax/web-lit-component#readme"
 }

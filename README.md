@@ -12,6 +12,12 @@ Steps to create your own web component based on Lit :
   * Replace "WebLitComponent" for "VanillaLit"
   * Replace "web-lit-component" for "vanilla-lit"
 
+## Local Demo with `web-dev-server`
+```bash
+npm start
+```
+To run a local development server that serves the basic demo located in `demo/index.html`
+
 ## Usage
 ```html
 <script type="module">
@@ -20,9 +26,3 @@ Steps to create your own web component based on Lit :
 
 <web-lit-component></web-lit-component>
 ```
-
-## Local Demo with `web-dev-server`
-```bash
-npm start
-```
-To run a local development server that serves the basic demo located in `demo/index.html`
